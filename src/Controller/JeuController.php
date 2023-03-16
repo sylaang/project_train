@@ -24,7 +24,7 @@ class JeuController extends AbstractController
 
             $data= $form->getData();
             
-            $data['alea']=rand(0.100);
+            $data['alea']=rand(0,100);
 
             if ($data['alea'] == $data['number']){
                 $data['reponse']="vous avez gagné, c'est bien joué";
