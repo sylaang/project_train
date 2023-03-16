@@ -1,0 +1,7 @@
+{# ce fichier contient le formulaire pour créer ou modifier un utilisateur.
+Il est inclus dans les fichiers new.html.twig et edit.html.twig. #}
+
+{{ form_start(form) }}
+    {{ form_widget(form) }}
+    <button class="btn">{{ button_label|default('Save') }}</button>
+{{ form_end(form) }}

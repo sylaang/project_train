@@ -1,0 +1,72 @@
+{% extends 'base.html.twig' %} {% block title %}Hello HomeController!{% endblock
+%} {% block body %}
+<h1>Création d'un projet Symfony.</h1>
+<div class="container col-8 mb-12">
+  <div class="row">
+    <div class="col-md-6 mb-3 mb-sm-0">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">- l'abstract controller</h5>
+          <p class="card-text">
+            fournit une méthode pour hériter la classe et accéder à l' ensemble
+            des propriétés publique et protégée de la classe abstractController
+            effectué une redirection.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">- l'objet Request</h5>
+          <p class="card-text">
+            formuler une requête L'objet Request est une classe qui contient
+            $_GET $_POST … (Un objet Request contient des informations sur la
+            demande du client)
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 mt-5">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">- l'objet Response</h5>
+          <p class="card-text">
+            Renvoie un objet de type Response qui va renvoyer les
+            caractéristiques vers la vue twig (côté client)permet de faire un
+            return qui renvoi une réponse côté client dans le navigateur
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 mt-5">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">- Route</h5>
+          <p class="card-text">
+            La configuration de routage définit l'action à exécuter pour chaque
+            URL entrante permet de diriger un url vers une méthode de controller
+            c est l action - Le principe des block dans la twig -le principe de
+            block dans la twig et de personnaliser ces pages en insérant des
+            block la ou on voudra changer le code. Les block permette d
+            enregistrer un code afin qu' il soit interprétée dans l'exécution de
+            l'interprétation des fichiers
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 mt-2">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">- Les 2 fonctionnalités de Composer</h5>
+          <p class="card-text">Composer est un gestionnaire de dépendances au niveau de l'application pour PHP.
+            1. Par dépendance, on entend simplement les bibliothèques/paquets dont dépend votre application.
+            2. Composer chargera automatiquement les fichiers nécessaires à l'application (autoload).composer est une bibliothèque qui implémente notre projet
+           </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
